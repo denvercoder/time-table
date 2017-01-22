@@ -20,6 +20,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("Fuck the world")
         // Do any additional setup after loading the view, typically from a nib.
         
         pickerView1.selectRow(4, inComponent: 0, animated: false)
